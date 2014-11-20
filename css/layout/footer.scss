@@ -1,0 +1,169 @@
+/*--| Footer
+-------------------------------------------------------------------------- |--*/
+
+.footer-main {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: auto;
+  min-height: 20px;
+  overflow: hidden;
+}
+
+.newsletter {
+  width: 760px;
+  height: auto;
+  min-height: 20px;
+  overflow: hidden;
+  margin: 30px auto 6px auto;
+  .news-promo {
+    width: 340px;
+    height: 120px;
+    overflow: hidden;
+    float: right;
+    background: url(../img/logo.svg) no-repeat top left;
+    background-size: contain;
+    margin: 8px 10px 0px 0px;
+    padding-top: 55px;
+    h6 {
+      font-weight: 700;
+      font-size: 5em;
+      line-height: 1em;
+      color: #d3d3d3;
+      margin: 15px 0px 10px 0px;
+      text-transform: uppercase;
+      letter-spacing: -1px;
+    }
+    p {
+      font-weight: 700;
+      font-size: 2em;
+      line-height: 1.075em;
+      color: #858585;
+    }
+  }
+  .news-form {
+    float: left;
+    width: 320px;
+    height: auto;
+    min-height: 20px;
+    overflow: hidden;
+    p {
+      display: block;
+      margin-bottom: 18px;
+      label {
+        font-weight: 700;
+        font-size: 1.8em;
+        line-height: 1em;
+        color: #3c3c3b;
+        margin: 0px 0px 3px 7px;
+        text-transform: uppercase;
+        display: block;
+      }
+      input, select {
+        font-family: 'Source Sans Pro', sans-serif;
+        background-color: #fff;
+        box-sizing: border-box;
+        border: 1px solid #c7c7c7;
+        height: 39px;
+        font-size: 1.5em;
+        font-weight: 300;
+        @include border-radius(8px);
+        width: 100%;
+        text-indent: 10px;
+        &:focus {color: #575757;}
+      }
+      button {
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8em;
+        line-height: 40px;
+        color: #fff;
+        height: 40px;
+        display: inline-block;
+        padding: 0px 15px 0px 15px;
+        @include border-radius(8px);
+        border: none;
+        cursor: pointer;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff5b00), to(#ffa900));
+        background: -webkit-linear-gradient(left, #ff5b00, #ffa900);
+        background: -moz-linear-gradient(left, #ff5b00, #ffa900);
+        background: -o-linear-gradient(left, #ff5b00, #ffa900);
+        background: -ms-linear-gradient(left, #ff5b00, #ffa900);
+        background: linear-gradient(left, #ff5b00, #ffa900);
+        background-color: #ff5b00;
+      }
+    }
+  }
+}
+
+.sitemap {
+  height: auto;
+  min-height: 20px;
+  border-top: 1px solid #cbcbcb;
+  overflow: hidden;
+  .center {width: 920px; margin: 0px auto 0px auto;}
+  .columnas {
+    height: auto;
+    min-height: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 17px 0px 19px 0px;
+    .columna {
+      height: 155px;
+      overflow: hidden;
+      float: left;
+      padding: 10px 18px 2px 18px;
+      border-right: 1px solid #cbcbcb;
+      &:last-child {border: none;}
+      h5 {
+        font-weight: 700;
+        font-size: 1.4em;
+        line-height: 1;
+        color: #3d3d3d;
+        margin: 0px 0px 9px 0px;
+        display: block;
+        text-align: left;
+      }
+      ul {
+        &.doscolumnas {
+          -webkit-column-count: 2;
+             -moz-column-count: 2;
+                  column-count: 2;
+          }
+        li a {
+          font-family: 'Source Sans Pro', sans-serif;
+          width: 90px;
+          float: left;
+          font-weight: 300;
+          color: #8f8f8f;
+          display: block;
+          font-size: 1.3em;
+          text-align: left;
+        }
+      }
+    }
+  }
+  p {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    color: #3d3d3d;
+    margin-bottom: 12px;
+    a {
+      font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      color: #3d3d3d;
+      font-size: 0.9em;
+    }
+  }
+}
+
+
+.no-svg .newsletter .news-promo {background: url(../img/logo.png) no-repeat top left;}
+
+::-webkit-input-placeholder {color: #575757;}
+:-moz-placeholder           {color: #575757;}
+::-moz-placeholder          {color: #575757;}
+:-ms-input-placeholder      {color: #575757;}

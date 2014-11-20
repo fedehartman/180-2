@@ -1,0 +1,28 @@
+.seccion {
+  width: 640px;
+  height: auto;
+  min-height: 20px;
+  overflow: hidden;
+  float: left;
+  .title {
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    color: #1d1d1b;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 6px 0px;
+    margin: 0px 0px 16px 0px;
+    border-bottom: 1px solid #c6c6c6;
+  }
+  .secundaria .notita {
+    height: auto;
+    min-height: 20px;
+    overflow: hidden;
+  }
+  .normal {
+    float: left;
+    margin: 0px 40px 40px 0px;
+  }
+  div.normal:nth-child(2n) {margin-right: 0px;}
+}

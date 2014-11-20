@@ -1,0 +1,61 @@
+/*--| Footer
+-------------------------------------------------------------------------- |--*/
+.footer-main {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: auto;
+  min-height: 20px;
+  overflow: hidden; }
+
+.newsletter {
+  width: 760px;
+  height: auto;
+  min-height: 20px;
+  overflow: hidden;
+  margin: 30px auto 35px auto; }
+  .newsletter .news-promo {
+    width: 340px;
+    height: 120px;
+    overflow: hidden;
+    float: right;
+    background: url(../img/logo.svg) no-repeat top left;
+    background-size: contain;
+    margin-top: 8px;
+    padding-top: 77px; }
+    .newsletter .news-promo h6 {
+      font-weight: 700;
+      font-size: 5em;
+      line-height: 1em;
+      color: #d3d3d3;
+      margin: 15px 0px 10px 0px;
+      text-transform: uppercase;
+      letter-spacing: -1px; }
+    .newsletter .news-promo p {
+      font-weight: 700;
+      font-size: 2em;
+      line-height: 1.075em;
+      color: #858585; }
+  .newsletter .news-form {
+    float: left;
+    width: 320px;
+    height: auto;
+    min-height: 20px;
+    overflow: hidden; }
+    .newsletter .news-form p {
+      display: block;
+      margin-bottom: 18px; }
+      .newsletter .news-form p label {
+        font-weight: 700;
+        font-size: 1.8em;
+        line-height: 1em;
+        color: #3c3c3b;
+        margin: 0px 0px 7px 7px;
+        text-transform: uppercase;
+        display: block; }
+      .newsletter .news-form p input {
+        background-color: #fff;
+        box-sizing: border-box;
+        border: 1px solid #c7c7c7; }
+
+.no-svg .newsletter .news-promo {
+  background: #ff9900 url(../img/logo.png) no-repeat top left; }

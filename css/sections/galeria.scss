@@ -1,0 +1,56 @@
+.galeria-listado {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #3b454e;
+  h4 {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 0px 35px 0px;
+    border-bottom: 1px solid #9da2a6;
+    span {
+      display: block;
+      font-weight: 700;
+      font-size: 3.8em;
+      line-height: 1em;
+      color: #fff;
+      width: 980px;
+      margin: 20px auto 20px auto;
+      text-transform: uppercase;
+
+    }
+  }
+  .galerias {
+    width: 980px;
+    height: auto;
+    min-height: 20px;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    li a {
+      box-sizing: border-box;
+      border: 1px solid #9da2a6;
+      width: 300px;
+      height: 270px;
+      display: block;
+      float: left;
+      margin: 0px 40px 40px 0px;
+    }
+    li:nth-child(3n) a {margin: 0px 0px 40px 0px;}
+  }
+  p a {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+.galeria-detalle {
+  background-color: #3b454e;
+  width: 100%;
+  margin: 0px auto 0px auto;
+}

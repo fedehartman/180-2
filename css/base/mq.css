@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+  .boceto {
+    width: 320px;
+    height: 7100px;
+    position: absolute;
+    z-index: 999999999999999999;
+    opacity: .6;
+    background: url(../../img/delete-home-mobile.jpg) no-repeat 0px 0px;
+    left: 50%;
+    margin: 0px 0px 0px -160px;
+    top: -6526px; }
+
+  /*--| Header
+  -------------------------------------------------------------------------- |--*/
+  .header-main {
+    height: 67px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.32);
+    margin-bottom: 18px; }
+    .header-main h1 a {
+      width: 226px;
+      height: 35px;
+      margin: 15px auto 25px auto;
+      background: url(../../img/mobile/logo.png) no-repeat 0px 0px; }
+    .header-main .header-data {
+      display: none; }
+    .header-main .header-menu {
+      width: 980px;
+      height: 44px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.22); }
+      .header-main .header-menu .mobile-menu {
+        display: block; }
+
+  /* .header-main */
+  /*--| Header
+  -------------------------*-------------------------------------------------- |--*/
+  .newsletter {
+    width: 265px;
+    margin: 11px auto 18px auto; }
+    .newsletter .news-promo {
+      width: 265px;
+      height: 105px;
+      padding-top: 50px;
+      float: none; }
+      .newsletter .news-promo h6 {
+        font-size: 2.13em;
+        line-height: 1em;
+        letter-spacing: 6px;
+        text-align: center;
+        margin: 0px 0px 3px 0px; }
+      .newsletter .news-promo p {
+        font-weight: 400;
+        font-size: 1.3em;
+        text-align: center; }
+    .newsletter .news-form {
+      float: none;
+      width: 200px; }
+      .newsletter .news-form p {
+        margin-bottom: 11px; }
+        .newsletter .news-form p label {
+          font-size: 1.28em; }
+        .newsletter .news-form p input, .newsletter .news-form p select {
+          height: 25px; }
+        .newsletter .news-form p button {
+          font-size: 1.28em;
+          line-height: 25px;
+          height: 25px;
+          padding: 0px 12px 0px 12px; }
+
+  /*-*/ }
+/* media */

@@ -1,0 +1,15 @@
+@import "base/reset";
+@import "base/body";
+
+@import "layout/header";
+@import "layout/sections";
+@import "layout/footer";
+@import "layout/banners";
+
+@import "sections/home";
+@import "sections/columnistas";
+@import "sections/galeria";
+@import "sections/nota";
+@import "sections/seccion";
+
+@import "base/mq";
